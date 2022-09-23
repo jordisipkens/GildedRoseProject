@@ -1,10 +1,3 @@
-//
-//  GildedRoseProjectUITests.swift
-//  GildedRoseProjectUITests
-//
-//  Created by Jordi Sipkens on 23/09/2022.
-//
-
 import XCTest
 
 class GildedRoseProjectUITests: XCTestCase {

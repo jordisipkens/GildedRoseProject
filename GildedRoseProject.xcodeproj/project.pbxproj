@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		64A242D228DDB60200A273AF /* GildedRoseProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A242D128DDB60200A273AF /* GildedRoseProjectApp.swift */; };
-		64A242D428DDB60200A273AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A242D328DDB60200A273AF /* ContentView.swift */; };
 		64A242D628DDB60300A273AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A242D528DDB60300A273AF /* Assets.xcassets */; };
 		64A242D928DDB60300A273AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A242D828DDB60300A273AF /* Preview Assets.xcassets */; };
 		64A242E328DDB60300A273AF /* GildedRoseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A242E228DDB60300A273AF /* GildedRoseProjectTests.swift */; };
 		64A242ED28DDB60300A273AF /* GildedRoseProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A242EC28DDB60300A273AF /* GildedRoseProjectUITests.swift */; };
 		64A242EF28DDB60300A273AF /* GildedRoseProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A242EE28DDB60300A273AF /* GildedRoseProjectUITestsLaunchTests.swift */; };
+		64A242FD28DDB62300A273AF /* GildedRoseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A242FC28DDB62300A273AF /* GildedRoseService.swift */; };
+		64A2430028DDB66E00A273AF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A242FF28DDB66E00A273AF /* Item.swift */; };
+		64A2430228DDB69100A273AF /* GildedRoseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A2430128DDB69100A273AF /* GildedRoseItem.swift */; };
+		64A2430428DDBA4C00A273AF /* GildedRoseTestItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A2430328DDBA4C00A273AF /* GildedRoseTestItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		64A242CE28DDB60200A273AF /* GildedRoseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GildedRoseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A242D128DDB60200A273AF /* GildedRoseProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseProjectApp.swift; sourceTree = "<group>"; };
-		64A242D328DDB60200A273AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64A242D528DDB60300A273AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64A242D828DDB60300A273AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64A242DE28DDB60300A273AF /* GildedRoseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GildedRoseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,10 @@
 		64A242E828DDB60300A273AF /* GildedRoseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GildedRoseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A242EC28DDB60300A273AF /* GildedRoseProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseProjectUITests.swift; sourceTree = "<group>"; };
 		64A242EE28DDB60300A273AF /* GildedRoseProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64A242FC28DDB62300A273AF /* GildedRoseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseService.swift; sourceTree = "<group>"; };
+		64A242FF28DDB66E00A273AF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		64A2430128DDB69100A273AF /* GildedRoseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseItem.swift; sourceTree = "<group>"; };
+		64A2430328DDBA4C00A273AF /* GildedRoseTestItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseTestItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,8 @@
 		64A242D028DDB60200A273AF /* GildedRoseProject */ = {
 			isa = PBXGroup;
 			children = (
+				64A242FB28DDB61400A273AF /* Backend */,
 				64A242D128DDB60200A273AF /* GildedRoseProjectApp.swift */,
-				64A242D328DDB60200A273AF /* ContentView.swift */,
 				64A242D528DDB60300A273AF /* Assets.xcassets */,
 				64A242D728DDB60300A273AF /* Preview Content */,
 			);
@@ -114,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				64A242E228DDB60300A273AF /* GildedRoseProjectTests.swift */,
+				64A2430328DDBA4C00A273AF /* GildedRoseTestItems.swift */,
 			);
 			path = GildedRoseProjectTests;
 			sourceTree = "<group>";
@@ -125,6 +132,24 @@
 				64A242EE28DDB60300A273AF /* GildedRoseProjectUITestsLaunchTests.swift */,
 			);
 			path = GildedRoseProjectUITests;
+			sourceTree = "<group>";
+		};
+		64A242FB28DDB61400A273AF /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				64A242FE28DDB66000A273AF /* domain */,
+				64A242FC28DDB62300A273AF /* GildedRoseService.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		64A242FE28DDB66000A273AF /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				64A242FF28DDB66E00A273AF /* Item.swift */,
+				64A2430128DDB69100A273AF /* GildedRoseItem.swift */,
+			);
+			name = domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64A242D428DDB60200A273AF /* ContentView.swift in Sources */,
+				64A2430028DDB66E00A273AF /* Item.swift in Sources */,
+				64A2430228DDB69100A273AF /* GildedRoseItem.swift in Sources */,
+				64A242FD28DDB62300A273AF /* GildedRoseService.swift in Sources */,
 				64A242D228DDB60200A273AF /* GildedRoseProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A2430428DDBA4C00A273AF /* GildedRoseTestItems.swift in Sources */,
 				64A242E328DDB60300A273AF /* GildedRoseProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

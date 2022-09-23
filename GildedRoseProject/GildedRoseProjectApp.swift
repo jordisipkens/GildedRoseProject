@@ -1,9 +1,3 @@
-//
-//  GildedRoseProjectApp.swift
-//  GildedRoseProject
-//
-//  Created by Jordi Sipkens on 23/09/2022.
-//
 
 import SwiftUI
 
@@ -11,7 +5,8 @@ import SwiftUI
 struct GildedRoseProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            EmptyView()
         }
     }
 }
