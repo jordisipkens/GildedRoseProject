@@ -50,6 +50,7 @@
 		64A242FF28DDB66E00A273AF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		64A2430128DDB69100A273AF /* GildedRoseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseItem.swift; sourceTree = "<group>"; };
 		64A2430328DDBA4C00A273AF /* GildedRoseTestItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseTestItems.swift; sourceTree = "<group>"; };
+		64A2430528DDC64A00A273AF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		64A242C528DDB60200A273AF = {
 			isa = PBXGroup;
 			children = (
+				64A2430528DDC64A00A273AF /* README.md */,
 				64A242D028DDB60200A273AF /* GildedRoseProject */,
 				64A242E128DDB60300A273AF /* GildedRoseProjectTests */,
 				64A242EB28DDB60300A273AF /* GildedRoseProjectUITests */,
